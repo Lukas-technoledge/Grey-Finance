@@ -1,0 +1,111 @@
+nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 54px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    max-width: 1200px;
+}
+
+.hamburgerAlt {
+    display: none;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    outline: inherit;
+}
+
+button > .MuiSvgIcon-root {
+    font-weight: 900 !important;
+    font-size: 40px;
+    height: 100%;
+    margin-left: auto;
+}
+
+.logoImg {
+    width: 88px;
+    height: 26px;
+}
+
+.navButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+.Identification {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.flag {
+    margin-right: 2px;
+}
+
+.Identification > .MuiSvgIcon-root {
+    color: rgb(167, 167, 167) !important;
+    font-weight: 900 !important; 
+}
+
+@media only screen and (min-width: 992px) {
+    nav {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .logoImg {
+        margin-right: 80px;
+    }
+
+    .navButtons {
+        margin-left: 0;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .hamburgerAlt {
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center;
+    }
+
+    .hamburgerAlt__left {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 400px;
+        padding-right: 40px;
+    }
+
+    .products {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .hamburgerAlt__left--link {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .hamburgerAlt__left--link > a {
+        text-decoration: none !important;
+        color: black;
+    }
+}
